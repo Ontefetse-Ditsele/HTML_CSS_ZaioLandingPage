@@ -1,0 +1,52 @@
+.logo{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(22, 50, 91);
+}
+.top{
+ 
+    background-color: rgb(22, 50, 91);
+}
+.menu-list{
+    list-style-type: none;
+    color: white;
+}
+.menu-list li{
+    color: white;
+}
+.top .button-2{
+    color: white;
+    background-color: orange;
+    
+}
+.top .button-1{
+    color: white;
+    background-color: #16325b;
+}
+.information-page{
+    color: rgb(255, 255, 255);
+    background: rgb(51, 51, 51);
+    display: flex;
+}
+.work-ready{
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+.work-ready .pipeline-talent{
+    display: block;
+}
+.work-ready .derisk-recruitment{
+    display: block;
+}
+.work-ready .workspace-ready{
+    display: block;
+}
+.next-gen-hiring{
+    background-color: rgb(236, 240, 254);
+}
+
+.footer{
+    background-image: url(images/world_map);
+    background-color: rgb(22, 50, 91);
+    text-align: center;
+}
