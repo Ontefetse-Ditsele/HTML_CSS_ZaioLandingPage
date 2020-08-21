@@ -1,81 +1,95 @@
-.top{
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap);
+
+* {
+    font-family: 'Open Sans', sans-serif;
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-size: 16px;
+}
+
+.menu-bar{
     background-color: rgb(22, 50, 91);
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding:20px 0 0 120px;
+    position: fixed;
+    
 }
-.top img{
-    width: 70px;
-    height: 40px;
-    position: center;
+.menu-links a{
+    color: white;
+    justify-items: space-around;
+    padding: 20px 0 0 20px;
 }
 
-.menu-list{
-    display: flex;
-    justify-items: space-around;
-    list-style-type: none;
-    color: white;
-}
-.menu-list li{
-    padding: 10px ;
-    text-decoration: none;
-    text-decoration-color: white;
-}
-a{
-    text-decoration-color: white;
-    text-decoration: none;
-}
-h2{
-    text-emphasis: bold;
-    text-align: center;
-    color: white;
-}
-.top .button-2{
+.btn2{
     color: white;
     background-color: orange;
-
+    border-radius: 5px;
+    z-index: -1;
 }
-.top .button-1{
+.btn{
     color: white;
     background-color: #16325b;
+    border-radius: 5px;
+    z-index: -1;
 }
-.img{
-    width: 100%;
-    height: 100%;
+.info{
+    background-color: rgb(22, 50, 91);
+    display: inline-flex;
+    color: white;
+    border-top-style: solid;
+    border-color: white;
+    height: 60vh;
+    
 }
-.information{
-    background: #16325b;
+.info .words{
+    width: 50%;
+    padding: 130px 30px 10px 40px;
 }
-.work-ready{
-    background: rgb(255, 255, 255);
-    display: flex;
+.image-container{
+    display:flex;
 }
-.work-ready .pipeline-talent{
-    display: block;
+.image-container .blocks{
+    padding-left: 40px;
 }
-.work-ready .derisk-recruitment{
-    display: block;
+.info-container h2{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 20px;
 }
-.work-ready .workspace-ready{
-    display: flexbox;
-}
+
 .next-gen-hiring{
     background-color: rgb(236, 240, 254);
 }
+.next-gen-hiring h3{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 20px;
+}
+.pictures{
+    display: flex;
+}
+.pictures .bloc{
+    width: 50%;
+}
 .schedule{
     text-align:center;
+    line-height-step: 30vh;
     background-color: #ecf0fe;
+    height: 40vh;
 }
 .schedule .meet{
     color: white;
     background-color: orange;
     position: relative;
-}
+} 
 .footer {
     background-image: url("https://d33wubrfki0l68.cloudfront.net/d878614d97021fdeea6d1059797901a56ac871d8/bfc03/_next/static/images/footer-bg-552708bc98446e2327640a16897ccc19.png");
     background-color: rgb(22, 50, 91);
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
     text-align: center;
     height: 50vh;
     position: relative;
@@ -85,4 +99,7 @@ h2{
     margin-top: 25vh;
     width: 60px;
     height: 60px;
+}
+.footer-links a{
+    color: white;
 }
